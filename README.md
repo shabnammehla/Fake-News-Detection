@@ -20,10 +20,14 @@ The model captures important terms and phrases using TF-IDF, which helps highlig
 ---
 
 ## Project Structure
-- `app.py` – ML prediction logic and backend API
+- `api.py` – Backend API for model prediction
+- `app.py` – Streamlit frontend application
+- `app.ipynb` – Model training and experimentation
+- `Fake.csv` – Fake news dataset
+- `True.csv` – Real news dataset
 - `lr_model.jb` – Trained Logistic Regression model
 - `vectorizer.jb` – TF-IDF vectorizer
-- `requirements.txt` – Required dependencies
+- `requirements.txt` – Project dependencies
 
 ---
 
